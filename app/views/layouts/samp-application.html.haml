@@ -1,0 +1,74 @@
+!!!
+%html
+  %head
+    %title Entries
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    .container
+      / Main navigation fixed on top
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            %a.brand{:href => "#"}
+              Entries
+            %ul.nav
+              %li.active
+                %a{:href => "<%= root_url%>"} Home
+              %li
+                %a{:href => "#"} Link
+              %li
+                %a{:href => "#"} Link
+            %ul.nav.pull-right
+              %li.dropdown
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                  Profile
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href => "#"} Link
+                  %li
+                    %a{:href => "#"} Link
+                  %li.divider
+                  %li
+                    %a{:href => "#"} Link
+                  %li
+                    %a{:href => "#"} Link
+      <% flash.each do |key, value| %>
+      <div class="alert alert-block alert-<%= key == :notice ? "success" : key %> fadeout" data-dismiss="alert">
+      %a.close ×
+      %h4.alert-heading <%= key.capitalize %>:
+      <%= value %>
+    <% end %>
+    .row
+      .span3
+        %ul.nav.nav-list
+          %li.nav-header List header
+          %li.active
+            %a{:href => "#"}
+              %i.icon-white.icon-home
+              Home
+          %li
+            %a{:href => "#"}
+              %i.icon-book
+              Library
+          %li
+            %a{:href => "#"}
+              %i.icon-pencil
+              Applications
+          %li.nav-header Another list header
+          %li
+            %a{:href => "#"}
+              %i.icon-user
+              Profile
+          %li
+            %a{:href => "#"}
+              %i.icon-cog
+              Settings
+          %li
+            %a{:href => "#"}
+              %i.icon-flag
+              Help
+      .span9
+        <%= yield %>

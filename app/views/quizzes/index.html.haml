@@ -1,0 +1,21 @@
+%h1 Listing quizzes
+
+%table
+  %tr
+    %th Name
+    %th Author
+    %th
+    %th
+    %th
+
+  - @quizzes.each do |quiz|
+    %tr
+      %td= quiz.name
+      %td= quiz.author
+      %td= link_to 'Show', quiz
+      %td= link_to 'Edit', edit_quiz_path(quiz)
+      %td= link_to 'Destroy', quiz, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Quiz', new_quiz_path

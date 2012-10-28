@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Entries</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Main navigation fixed on top -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="#">
+              Entries
+            </a>
+
+            <ul class="nav">
+              <li class="active">
+                <a href="<%= root_url%>">Home</a>
+              </li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+              <li class="dropdown">
+                <a href="#"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown">
+                      Profile
+                      <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <% flash.each do |key, value| %>
+        <div class="alert alert-block alert-<%= key == :notice ? "success" : key %> fadeout" data-dismiss="alert">
+          <a class="close">×</a>
+          <h4 class="alert-heading"><%= key.capitalize %>:</h4>
+          <%= value %>
+        </div>
+    <% end %>
+
+
+    <div class="row">
+        <div class="span3">
+            <ul class="nav nav-list">
+                <li class="nav-header">List header</li>
+                <li class="active"><a href="#"><i class="icon-white icon-home"></i> Home</a></li>
+                <li><a href="#"><i class="icon-book"></i> Library</a></li>
+                <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+                <li class="nav-header">Another list header</li>
+                <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+                <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="icon-flag"></i> Help</a></li>
+            </ul>
+        </div>
+
+        <div class="span9">
+            <%= yield %>
+        </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

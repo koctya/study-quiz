@@ -4,17 +4,18 @@
   %b Section:
   = @question.section
 %p
-  %b Type:
-  = @question.qtype
-%p
   %b Statement:
   = @question.statement
 %p
   %b Choices:
-  = @question.choices
-%p
-  %b Answer:
-  = @question.answer
+  - ch = YAML.load @question.choices
+  - ch.each do |k,val|
+    %ul
+      %li #{k}  - #{val}
+  /= @question.choices
+/%p
+/%b Answer:
+/= @question.answer
 
 = link_to 'Edit', edit_question_path(@question)
 \|

@@ -11,7 +11,7 @@
     = f.text_field :section
   .field
     = f.label :qtype
-    = f.text_field :qtype
+    = f.select :qtype, options_for_select([["choice", "choice"], ["true-false", "true-false"],["short", "short"]], "choice")
   .field
     = f.label :statement
     = f.text_area :statement, :size => "50x6"

@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(:version => 20121027213413) do
     t.string   "qtype"
     t.text     "statement"
     t.text     "choices"
-    t.text     "answer"
+    t.string   "answer"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

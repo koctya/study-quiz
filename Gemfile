@@ -5,7 +5,9 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :production do
+  gem 'pg', '~> 0.14'
+end
 gem 'yaml_db'
 
 # Gems used only for assets and not required
@@ -23,6 +25,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'haml-rails'
 gem 'coffee-filter'
 
@@ -42,6 +45,7 @@ gem 'puma'
 # gem 'debugger'
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'pry-rails'
   gem 'pry-nav'
   gem 'nifty-generators'
@@ -50,4 +54,5 @@ end
 
 group :test do
   gem 'cucumber-rails', require: false
+  gem 'jasminerice'
 end

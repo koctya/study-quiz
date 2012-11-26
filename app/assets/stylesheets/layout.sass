@@ -1,6 +1,7 @@
 // from nifty generators
 
 $primary_color: #4b7399
+$tip_background: #1d1d1d
 
 body
   background-color: $primary_color
@@ -66,3 +67,22 @@ a
     margin: 8px 10px
   ul
     margin: 0
+
+.tip_term
+  color: darkblue
+  padding: 2px 8px
+  font:
+    weight: bold
+    size: 14px
+    
+.tip
+  color: white
+  background:  $tip_background
+  // hide by default
+  display: none
+  padding: 10px
+  position: absolute
+  max-wiwdth: 300px
+  z-index: 1000000
+  //@include rounded-corners(3px)
+  

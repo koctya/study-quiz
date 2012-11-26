@@ -1,12 +1,16 @@
 %p#notice= notice
 
-%p
+%p.tooltip
   %b Term:
   = @terminology.term
-%p
-  %b Desc:
-  = @terminology.desc
+  %span.tip
+    = @terminology.desc
+//%p
+//  /%b Desc:
+//  /= @terminology.desc
 
 = link_to 'Edit', edit_terminology_path(@terminology)
 \|
 = link_to 'Back', terminologies_path
+\|
+= link_to 'Destroy', @terminology, method: :delete, data: { confirm: 'Are you sure?' }

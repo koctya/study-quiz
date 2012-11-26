@@ -3,18 +3,17 @@
 %table
   %tr
     %th Term
+    %th 
     %th Desc
-    %th
     %th
     %th
 
   - @terminologies.each do |terminology|
     %tr
-      %td= terminology.term
-      %td= terminology.desc
+      %td
+        .tip_term= terminology.term
+        %span.tip= terminology.desc
       %td= link_to 'Show', terminology
-      %td= link_to 'Edit', edit_terminology_path(terminology)
-      %td= link_to 'Destroy', terminology, method: :delete, data: { confirm: 'Are you sure?' }
 
 %br
 

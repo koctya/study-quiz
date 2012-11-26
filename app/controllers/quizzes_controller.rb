@@ -15,6 +15,10 @@ class QuizzesController < ApplicationController
   def show
     @quiz = Quiz.find(params[:id])
 
+    # @num_questions = Question.where( section: @quiz.name).count
+    @first_question = Question.find_by_section @quiz.name
+    @questions = Question.where(section: 'final').pluck :id
+    
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @quiz }
@@ -32,6 +36,19 @@ class QuizzesController < ApplicationController
     end
   end
 
+  # GET /quizzes/1/start
+  # GET /quizzes/new.json
+  def start
+    @quiz = Quiz.find(params[:id])
+    #binding.pry
+    Question.find_by_section @quiz.name
+    
+    respond_to do |format|
+      format.html # start.html.erb
+      format.json { render json: @quiz }
+    end
+  end
+  
   # GET /quizzes/1/edit
   def edit
     @quiz = Quiz.find(params[:id])

@@ -1,6 +1,7 @@
 StudyQuiz::Application.routes.draw do
 
   resources :quizzes
+  get 'quizzes/:id/start'
 
   resources :questions
 

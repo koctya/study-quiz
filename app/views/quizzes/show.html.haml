@@ -6,7 +6,12 @@
 %p
   %b Author:
   = @quiz.author
+  
+%p
+  Has #{@questions.count} questions.
 
+= link_to 'Start Quiz', @first_question
+%hr
 = link_to 'Edit', edit_quiz_path(@quiz)
 \|
 = link_to 'Back', quizzes_path

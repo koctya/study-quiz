@@ -1,0 +1,458 @@
+
+---
+questions:
+  columns:
+  - id
+  - section
+  - qtype
+  - statement
+  - choices
+  - answer
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - ch1
+    - choice
+    - ! "When demand for a commodity decreases and supply remains the same\r\n"
+    - ! "a: price tends to rise\r\nb: price tends to fall\r\nc: price is not affected\r\nd:
+      the market becomes stagnant"
+    - b
+    - '2012-10-27 23:38:46.413759'
+    - '2012-10-27 23:38:46.413759'
+  - - 2
+    - ch1
+    - choice
+    - A licensed real estate professional acting as a point of contact between two
+      or more people in negotiating the sale, rental, or purchase of a property is
+      known as a
+    - ! "a: sales affiliate\r\nb: broker\r\nc: property manager\r\nd: appraiser"
+    - b
+    - '2012-10-27 23:41:58.677098'
+    - '2012-10-27 23:41:58.677098'
+  - - 3
+    - ch1
+    - choice
+    - All of the following would affect supply EXCEPT
+    - ! "a: population\r\nb: construction costs\r\nc: government controls\r\nd: the
+      labor force"
+    - a
+    - '2012-10-27 23:48:38.122090'
+    - '2012-10-27 23:48:38.122090'
+  - - 4
+    - ch1
+    - choice
+    - All of the following are categories of the uses of real property EXCEPT
+    - ! "a: residential\r\nb: developmental\r\nc: agricultural\r\nd: industrial"
+    - b
+    - '2012-10-27 23:49:56.798194'
+    - '2012-10-27 23:49:56.798194'
+  - - 5
+    - ch1
+    - choice
+    - All of the following would affect demand EXCEPT
+    - ! "a: population\r\nb: demographics\r\nc: wage levels\r\nd: fiscal policy"
+    - d
+    - '2012-10-27 23:52:34.475641'
+    - '2012-10-27 23:52:34.475641'
+  - - 6
+    - ch1
+    - choice
+    - All of the following affect how quickly the forces of supply and demand work
+      EXCEPT
+    - ! "a: degree of standardization of the product\r\nb: mobility of the product\r\nc:
+      degree of standardization of the product's price\r\nd: mobility of the parties
+      to the transaction"
+    - c
+    - '2012-10-28 00:51:58.107274'
+    - '2012-10-28 00:51:58.107274'
+  - - 7
+    - ch1
+    - choice
+    - A real estate professional who performs a visual survey of a property's structure
+      and systems and prepares an analytical report for a purchaser or an owner is
+      acting as a(n)
+    - ! "a: educator\r\nb: appraiser\r\nc: property manager\r\nd: home inspector"
+    - d
+    - '2012-10-28 00:52:41.779255'
+    - '2012-10-28 00:55:53.167403'
+  - - 8
+    - ch1
+    - choice
+    - When the supply of a commodity decreases while demand remains the same
+    - ! "a: price tends to rise\r\nb: price tends to drop\r\nc: demand tends to rise\r\nd:
+      demand tends to drop"
+    - a
+    - '2012-10-28 01:08:35.572429'
+    - '2012-10-28 01:08:35.572429'
+  - - 9
+    - ch1
+    - choice
+    - When responsible for maintaining a client's property and maximizing return on
+      the client's investment, a broker is serving as a(n)
+    - ! "a: rental agent\r\nb: building maintenance specialist\r\nc: property manager\r\nd:
+      investment counselor"
+    - c
+    - '2012-10-28 01:23:29.963948'
+    - '2012-10-28 01:23:29.963948'
+  - - 10
+    - ch1
+    - choice
+    - Detailed information about the age, education, behavior, and other characteristics
+      of members of a population is called
+    - ! "a: population\r\nb: demographics\r\nc: family lifestyles\r\nd: households"
+    - b
+    - '2012-10-28 02:12:23.130302'
+    - '2012-10-28 02:12:23.130302'
+  - - 11
+    - ch2
+    - choice
+    - ! 'The phrase "bundle of legal rights" is properly included in '
+    - ! "a: the definition of real property\r\nb: a legal description\r\nc: real estate
+      transactions\r\nd: leases for less than one year"
+    - a
+    - '2012-10-28 02:17:48.641421'
+    - '2012-10-28 02:17:48.641421'
+  - - 12
+    - ch2
+    - choice
+    - All of the following are included in the right to control one's property EXCEPT
+    - ! "a: the right to sell the property to a neighbor\r\nb: the right to exclude
+      the utilities' meter reader\r\nc: the right to erect \"no trespassing\" signs\r\nd:
+      the right to enjoy profits from ownership"
+    - b
+    - '2012-10-28 02:20:27.914343'
+    - '2012-10-28 02:20:27.914343'
+  - - 13
+    - ch2
+    - choice
+    - According to law, a trade fixture is usually treated as
+    - ! "a: a fixture\r\nb: an easement\r\nc: personalty\r\nd: a license"
+    - c
+    - '2012-10-28 02:24:26.617691'
+    - '2012-10-28 02:24:26.617691'
+  - - 14
+    - ch2
+    - choice
+    - Kandace is interested in a house that fits most of her needs, but it is located
+      in a busy area where she is not sure she wants to live. Her concern about the
+      property's location is called
+    - ! "a: physical deterioration\r\nb: area preference\r\nc: permanence of investment\r\nd:
+      immobility"
+    - b
+    - '2012-10-28 02:26:40.952365'
+    - '2012-10-28 02:26:40.952365'
+  - - 15
+    - ch2
+    - choice
+    - Which of the following is considered personal property
+    - ! "a: Wood-burning fireplace\r\nb: Awnings\r\nc: Bathtubs\r\nd: Patio furniture"
+    - d
+    - '2012-10-28 02:27:50.562167'
+    - '2012-10-28 02:27:50.562167'
+  - - 16
+    - ch2
+    - choice
+    - All of the following are properly described by the word "improvement" EXCEPT
+    - ! "a: streets\r\nb: a sanitary sewer system\r\nc: trade fixtures\r\nd: the foundation
+      of a building"
+    - c
+    - '2012-10-28 02:30:48.610764'
+    - '2012-10-28 02:30:48.610764'
+  - - 17
+    - ch2
+    - choice
+    - Real property can become personal property by
+    - ! "a: severance\r\nb: purchase\r\nc: hypothecation\r\nd: attachment"
+    - a
+    - '2012-10-28 02:32:41.255287'
+    - '2012-10-28 02:32:41.255287'
+  - - 18
+    - ch2
+    - choice
+    - All of the following are physical characteristics of land EXCEPT
+    - ! "a: indestructibility\r\nb: uniqueness\r\nc: immobility\r\nd: scarcity"
+    - d
+    - '2012-10-28 02:34:11.848904'
+    - '2012-10-28 02:34:11.848904'
+  - - 19
+    - ch2
+    - choice
+    - A broker showed an owner-occupied property that had window screens, custom venetian
+      blinds, and a wall bed to a buyer whose offer was then accepted by the owner.
+      Before the close of escrow, the seller may remove
+    - ! "a: all of the identified items because they are trade fixtures\r\nb: only
+      venetian blinds as personal property\r\nc: only the wall bed because it is real
+      property\r\nd: none of the identified items"
+    - d
+    - '2012-10-28 02:37:16.694616'
+    - '2012-10-28 02:37:16.694616'
+  - - 20
+    - ch2
+    - choice
+    - Land is considered to be
+    - ! "a: indestructible\r\nb: a wasting asset\r\nc: immune to the forces of supply
+      and demand\r\nd: subject to personal property rights"
+    - a
+    - '2012-10-28 02:39:10.298530'
+    - '2012-10-28 02:39:10.298530'
+  - - 21
+    - ch2
+    - choice
+    - A rancher owns a parcel of land on which oil is discovered. If the rancher has
+      not previously conveyed the oil rights, who owns the oil?
+    - ! "a: the rancher\r\nb: The tenant to whom the property has been leased\r\nc:
+      The state government\r\nd: the federal government\r\n"
+    - a
+    - '2012-10-28 13:39:12.184853'
+    - '2012-10-28 13:39:12.184853'
+  - - 22
+    - ch2
+    - choice
+    - The type of housing which can become permanent if affixed to the land is called
+    - ! "a: on-site built\r\nb: semi-detached single family\r\nc: manufactured\r\nd:
+      multi-family"
+    - c
+    - '2012-10-28 14:18:24.155705'
+    - '2012-10-28 14:18:24.155705'
+  - - 23
+    - ch2
+    - choice
+    - All of the following are treated as personal property EXCEPT
+    - ! "a: chatels\r\nb: trade fixtures\r\nc: embelishments\r\nd: fructus naturales"
+    - d
+    - '2012-10-28 14:20:24.442715'
+    - '2012-10-28 14:22:22.389116'
+  - - 24
+    - ch2
+    - choice
+    - Fixtures are
+    - ! "a: treated as property\r\nb: considered to be chattels\r\nc: removable by
+      a tenant before the expiration of the lease\r\nd: removable by a tenant after
+      the expiration of the lease"
+    - a
+    - '2012-10-28 14:22:03.296339'
+    - '2012-10-28 14:22:03.296339'
+  - - 25
+    - ch2
+    - choice
+    - After the construction of a building in the air rights above a railroad right-of-way,
+      the trains can
+    - ! "a: operate as usual\r\nb: no longer use the tracks under the building\r\nc:
+      use the tracks under the building only if they cause no problem for the building's
+      occupants\r\nd: use the tracks under the building as long as they first obtain
+      the building owner's permission"
+    - a
+    - '2012-10-28 14:25:24.985144'
+    - '2012-10-28 14:25:24.985144'
+  - - 26
+    - ch10
+    - choice
+    - Which Lien affects all real and personal property of a debtor?
+    - ! "a: Specific\r\nb: Voluntary\r\nc: Involuntary\r\nd: General"
+    - d
+    - '2012-11-06 23:34:11.106017'
+    - '2012-11-06 23:34:11.106017'
+  - - 27
+    - ch10
+    - choice
+    - Priority of liens refers to which of the following?
+    - ! "a: Order in which a debtor assumes responsibility for payment of obligations.\r\nb:
+      Order in which liens will be paid if property is sold to satisfy a debt\r\nc:
+      Dates liens are filed for record\r\nd: Fact that specific liens have greater
+      priority than general liens"
+    - b
+    - '2012-11-06 23:54:27.624520'
+    - '2012-11-06 23:54:27.624520'
+  - - 28
+    - ch10
+    - choice
+    - A lien on real estate made to secure payment for a specific municipal improvement
+      project is which of the following?
+    - ! "a: Mechanic's lien\r\nb: Special assessment\r\nc: Ad valorem\r\nd: Utility
+      lien"
+    - b
+    - '2012-11-06 23:57:30.874806'
+    - '2012-11-06 23:57:30.874806'
+  - - 29
+    - ch10
+    - choice
+    - Which lien usually would be given highest priority in disbursing funds from
+      a foreclosure sale?
+    - ! "a: Mortgage dated last year\r\nb: Real estate taxes due\r\nc: Mechanic's
+      lien for work started before the mortgage was made\r\nd: Judgement rendered
+      the day before foreclosure"
+    - b
+    - '2012-11-06 23:59:58.167123'
+    - '2012-11-06 23:59:58.167123'
+  - - 30
+    - ch10
+    - choice
+    - A specific parcel of real estate has a market value of $160,000 and is assessed
+      for tax purposes at 75 percent of market value. The tax rate for the county
+      in which the property is located is 40 mills. The tax bill will be
+    - ! "a: $6,400\r\nb: $5,000\r\nc: $5,200\r\nd: $4,800"
+    - d
+    - '2012-11-07 00:05:14.746039'
+    - '2012-11-07 00:05:14.746039'
+  - - 31
+    - ch10
+    - choice
+    - Which tax would target homeowners in particular?
+    - ! "a: Personal property tax\r\nb: Sales tax\r\nc: Real property tax\r\nd: Luxury
+      tax"
+    - c
+    - '2012-11-07 00:06:48.129745'
+    - '2012-11-07 00:06:48.129745'
+  - - 32
+    - ch10
+    - choice
+    - ! 'A mechanic''s lien claim arises when a contractor has performed work or provided
+      material to improve a parcel of real estate on the owner''s order and the work
+      has not been paid for. Such a contractor has a right to '
+    - ! "a: tear out the work\r\nb: record a notice of the lien\r\nc: record a notice
+      of the lien and file a court suit within the time required by law\r\nd: have
+      personal property of the owner sold to satisfy the lien"
+    - c
+    - '2012-11-07 00:09:48.967781'
+    - '2012-11-07 00:09:48.967781'
+  - - 33
+    - ch10
+    - choice
+    - What is the annual real estate tax on a property valued at $135,000 and assessed
+      for tax purposes at $47,250, with an equalization factor of 125 percent, when
+      the tax rate is 25 mills?
+    - ! "a: $945\r\nb: $1,181\r\nc: $1,418\r\nd: $1,477"
+    - d
+    - '2012-11-07 00:12:07.860081'
+    - '2012-11-07 00:12:07.860081'
+  - - 34
+    - ch10
+    - choice
+    - Which of the following is a voluntary, specific lien?
+    - ! "a: IRS tax lien\r\nb: Mechanic's lien\r\nc: Mortgage lien\r\nd: Seller's
+      lien"
+    - c
+    - '2012-11-07 00:13:25.281505'
+    - '2012-11-07 00:13:25.281505'
+  - - 35
+    - ch10
+    - choice
+    - ! "A seller sold a buyer a parcel of real estate.\r\nTitle has passed, but to
+      date the buyer has not paid the purchase price in full, as originally agreed.
+      If the seller wants to force payment, which remedy would the seller be entitled
+      to seek?"
+    - ! "a: Attachment\r\nb: Mechanic's lien\r\nc: Lis pendens\r\nd: Judgement"
+    - d
+    - '2012-11-07 00:15:40.021740'
+    - '2012-11-07 00:15:40.021740'
+  - - 36
+    - ch10
+    - choice
+    - ! "A general contractor recently filed suit against a homeowner for nonpayment.
+      The contractor now learns that the homeowner has listed the property for sale
+      with a real estate broker. \r\nIn this situation, which of the following will
+      the contractor's attorney use to protect the contractor's interest?"
+    - ! "a: Seller's lien\r\nb: Buyer's lien\r\nc: Assessment\r\nd: Lis pendens"
+    - d
+    - '2012-11-07 00:18:35.093852'
+    - '2012-11-07 00:18:35.093852'
+  - - 37
+    - ch10
+    - choice
+    - Which statement MOST accurately describes special assessment liens?
+    - ! "a: They are general liens\r\nb: They are paid on a monthly basis\r\nc: They
+      take priority over mechanics' liens\r\nd: They cannot be prepaid in full without
+      penalty"
+    - c
+    - '2012-11-07 00:20:22.092649'
+    - '2012-11-07 00:20:22.092649'
+  - - 38
+    - ch10
+    - choice
+    - Which of the following creates a lien on real estate?
+    - ! "a: Easement running with the land\r\nb: Unpaid mortgage loan\r\nc: License\r\nd:
+      Encroachment"
+    - b
+    - '2012-11-07 00:21:34.939983'
+    - '2012-11-07 00:21:34.939983'
+  - - 39
+    - ch10
+    - choice
+    - Which statement is TRUE of both a mortgage lien and a judgement lien?
+    - ! "a: They must be entered by the court\r\nb: They involve a debtor-creditor
+      relationship\r\nc: They are general liens\r\nd: They are involuntary liens"
+    - b
+    - '2012-11-07 00:23:14.246086'
+    - '2012-11-07 00:23:14.246086'
+  - - 40
+    - ch10
+    - choice
+    - ! 'A mechanic''s lien would be available to all of the following EXCEPT a '
+    - ! "a: subcontractor\r\nb: contractor\r\nc: surveyor\r\nd: broker"
+    - d
+    - '2012-11-07 00:24:40.340051'
+    - '2012-11-07 00:24:40.340051'
+  - - 41
+    - ch10
+    - choice
+    - The right of a defaulted taxpayer to recover property before its sale for unpaid
+      taxes is the
+    - ! "a: statutory right of reinstatement\r\nb: equitable right of appeal\r\nc:
+      statutory right of assessment\r\nd: equitable right of redemption"
+    - d
+    - '2012-11-07 00:26:20.237720'
+    - '2012-11-07 00:26:20.237720'
+  - - 42
+    - ch10
+    - choice
+    - Which of the following is a specific, involuntary, statutory lien?
+    - ! "a: Real estate tax lien\r\nb: Income tax lien\r\nc: Estate tax lien\r\nd:
+      Judgement lien"
+    - b
+    - '2012-11-07 00:27:41.666859'
+    - '2012-11-07 00:27:41.666859'
+  - - 43
+    - ch10
+    - choice
+    - General real estate taxes levied for the operation of the government are called
+    - ! "a: assessment taxes\r\nb: ad valorem taxes\r\nc: special taxes\r\nd: improvement
+      taxes"
+    - b
+    - '2012-11-07 00:28:56.200729'
+    - '2012-11-07 00:28:56.200729'
+  - - 44
+    - ch10
+    - choice
+    - All of the following probably would be exempt from real estate taxes EXCEPT
+      a(n)
+    - ! "a: public hospital\r\nb: golf course operated by the park district\r\nc:
+      community church\r\nd: apartment building"
+    - d
+    - '2012-11-07 00:30:28.103046'
+    - '2012-11-07 00:30:28.103046'
+
+---
+terminologies:
+  columns:
+  - id
+  - term
+  - desc
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - test
+    - a terminology test
+    - '2012-11-04 02:06:10.224307'
+    - '2012-11-04 02:06:10.224307'
+  - - 2
+    - ad valorem tax
+    - ''
+    - '2012-11-06 23:30:18.700257'
+    - '2012-11-06 23:30:18.700257'
+  - - 3
+    - assessment
+    - ''
+    - '2012-11-06 23:30:34.914280'
+    - '2012-11-06 23:30:34.914280'

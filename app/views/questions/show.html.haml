@@ -9,12 +9,14 @@
 %p
   %b Choices:
   - ch = YAML.load @question.choices
-  - ch.each do |k,val|
-    %ul
-      %li #{k}  - #{val}
+  %ul
+    - ch.each do |k,val|
+      %li
+        = radio_button_tag(:choice, k)
+        = label_tag("choice_#{k}", val) 
   /= @question.choices
 /%p
 /%b Answer:
 /= @question.answer
 
-= link_to 'Next Question', @next_question
+%button= link_to 'Next', @next_question
